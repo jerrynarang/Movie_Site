@@ -1,0 +1,35 @@
+     body{
+        font-family: 'Cabin', sans-serif;
+        font-weight: 400;
+      }
+
+ hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+}
+table {
+    font-family: 'Cabin', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+ @media (max-width: 767px) { 
+
+.test{
+    padding-top: 30px;
+}
+}
